@@ -1,0 +1,54 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    height: 100vh;
+    margin: 0px;
+}
+
+header {
+    background: palegoldenrod;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 40%;
+}
+
+.calculator {
+    background: skyblue;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 70%;
+    width: 80%;
+    margin: auto;
+    grid-gap: 2px;
+}
+
+#display {
+    grid-column: 1/5;
+    width: 100%;
+    height: 40%;
+    font-size: 20px;
+    align-self: end;
+    text-align: right;
+    background: whitesmoke;
+}
+
+#equal {
+    grid-column: 2/4;
+}
+
+button {
+    font-weight: bold;
+    border: none;
+    background: wheat;
+    font-size: 20px;
+}
+
+.operator {
+    background: lightsalmon;
+}
