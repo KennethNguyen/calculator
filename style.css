@@ -12,7 +12,8 @@ header {
 
 .intro {
     text-align: center;
-    margin-top: 40%;
+    margin-top: 30%;
+    font-size: 22px;
 }
 
 .calculator {
@@ -23,7 +24,7 @@ header {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     height: 70%;
-    width: 80%;
+    width: 50%;
     margin: auto;
     grid-gap: 2px;
 }
@@ -38,17 +39,17 @@ header {
     background: whitesmoke;
 }
 
-#equal {
-    grid-column: 2/4;
-}
-
 button {
     font-weight: bold;
     border: none;
     background: wheat;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .operator {
     background: lightsalmon;
+}
+
+#clear {
+    background: lightcoral
 }
