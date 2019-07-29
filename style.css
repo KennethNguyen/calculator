@@ -33,7 +33,8 @@ header {
     grid-column: 1/5;
     width: 100%;
     height: 40%;
-    font-size: 20px;
+    font-size: 40px;
+    font-family:'sans-serif';
     align-self: end;
     text-align: right;
     background: whitesmoke;
