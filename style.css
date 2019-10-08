@@ -12,8 +12,9 @@ header {
 
 .intro {
     text-align: center;
-    margin-top: 30%;
     font-size: 22px;
+    width: 80%;
+    margin: 30% auto 0px auto;
 }
 
 .calculator {
