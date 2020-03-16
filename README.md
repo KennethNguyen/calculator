@@ -18,9 +18,8 @@ Inspired by [The Odin Project's Web Development 101](https://www.theodinproject.
 
 ## Todo
 
-* Make calculator functional for multiple digit inputs
 * Calculator can make consecutive operational executions without having to press the equal (=) button each time
-* Negative inputs and decimal inputs
+* Negative inputs
 
 ## Author
 
